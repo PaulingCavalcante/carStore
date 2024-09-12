@@ -9,12 +9,13 @@ html, body {
 
 .gallery {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 
 .gallery img {
-  height: 200px;
+  width: 23rem;
   cursor: pointer;
   border-radius: 8px;
   transition: 0.3s;
