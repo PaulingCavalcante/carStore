@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.radio form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  width: 100vw;
+}
+
+input[type="radio"] {
+  visibility: hidden;
+  display: none;
+}
+
+label {
+  display: block;
+  border: 4px solid #666;
+  width: 300px;
+  height: auto;
+  float: left;
+}
+
+input[type="radio"]:checked + label {
+  border-color: #ccf;
+}
+
+img {
+  width: 300px;
+}
+
+c {
+  width: 100%;
+}
+
+c2 {
+  width: 100%;
+}
