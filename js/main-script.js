@@ -38,9 +38,6 @@ function calculatePayment(price, downPayment, installments) {
     let downPaymentNumber = parseFloat(downPayment.replace(/[^0-9.,]/g, '').replace(',', '.')); // Remove símbolos e converte para número
     let remainingAmount = priceNumber - downPaymentNumber;
     let installmentAmount = (remainingAmount / installments);
-    alert(installmentAmount)
-    alert(remainingAmount)
-    alert(installments)
     
     return {
         totalAmount: priceNumber.toFixed(2),
